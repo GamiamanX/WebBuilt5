@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dhurjati&family=Lato:wght@900&display=swap');
+
+.g-base {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    background:linear-gradient(45deg, #1d5a74 25%, transparent 25%, transparent 75%, #1d5a74 75%) 0 0 / 200px 200px,linear-gradient(45deg, #1d5a74 25%, transparent 25%, transparent 75%, #1d5a74 75%) 100px 100px / 200px 200px,#1d1f7a;
+}
+    
+
+
+.g-foreground{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: auto;
+    color: white; /* color of text */
+    background-color: #1c2024;
+}
+
+
+.g-header{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border-radius: 10px;
+    background-color: #800000;
+    color: lightgray;
+    font-family: 'Anton', sans-serif;
+    padding: 10px;
+}
+
+.g-heading {
+    font-size: 3rem;
+}
+
+.g-subHeading {
+    font-size: 2rem;
+}
+
+.g-nav{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-size: 3rem;
+    font-family: 'Dhurjati', sans-serif;
+    gap: 30px;
+}
+
+.g-nav a {
+    color: yellow; /* color of text */
+    text-decoration: none;
+}
+
+.g-nav a:hover {
+    color: orange;
+}
+
+#home-about{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#welcome{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Anton', sans-serif;
+    color: lightgray;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+.home-message{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#Resume-Format{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: lightgray;
+}
+
+#Res-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#Res-heading{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3.5rem;
+}
+
+#Res-subheading{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.skl-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 3.5rem;
+    padding: 40px;
+}
+
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.res-info, .res-date{
+    width: 50%;
+}
+
+
+.skl-list{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#web-header{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
